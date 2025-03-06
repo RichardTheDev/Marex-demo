@@ -134,10 +134,10 @@ if submitted:
                 st.success("✅ Reformattage réussi ! Voici la quote :")
                 st.code(reformatted_quote, language="markdown")
 
-                # Copy button
-                if st.button("📋 Copier le résultat"):
-                    pyperclip.copy(reformatted_quote)
-                    st.success("Texte copié dans le presse-papiers !")
+                # # Copy button
+                # if st.button("📋 Copier le résultat"):
+                #     pyperclip.copy(reformatted_quote)
+                #     st.success("Texte copié dans le presse-papiers !")
 
                 # 3) Always send the input with blank fields to Airtable
                 send_to_airtable(user_input, "", "")
