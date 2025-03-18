@@ -108,6 +108,23 @@ if submitted:
                         "INTC Jan 18/28 1.5 x1 STG vs. 20.41 7d/p @ 5.42 EXO\n"
                         "CRWD Mar26 400/440 STG vs. 357.45 4d/p @125.60 EXO\n"
                         "MDB Mar 200 Put vs. 257.3"
+                        "Other examples : "
+                        "Input:"
+                        """XOP 17Jan27 105 P v129.82 23d 400x
+                        BMY 17Jan27 38 P v59.82 11d 700x
+                        COST 18Jun26 640 P v920.35 9d 50x
+                        XLF 17Jan27 39 P v49.23 15d 600x
+                        DIS 17Jan27 80 P v99.89 19d 500x
+                        XLI 17Jan27 95 P v133.41 8d 400x
+                        XLV 17Jan27 110 P v146.88 6d 1000x"""
+                        """Output:\n
+                        XOP Jan27 105 Put vs.129.82 23d  400x\n
+                        BMY Jan27 38 Put vs.59.82 11d 700x\n
+                        COST Jun26 640 Put vs.920.35 9d 50x\n
+                        XLF Jan27 39 Put vs.49.23 15d 600x\n
+                        DIS Jan27 80 Put vs.99.89 19d 500x\n
+                        XLI Jan27 95 Put vs.133.41 8d 400x\n
+                        XLV Jan27 110 Put vs.146.88 6d 1000x"""
                     )
                 },
                 {
