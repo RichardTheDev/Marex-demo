@@ -173,6 +173,8 @@ if st.session_state["reformatted_quote"]:
 
     with col_text:
         st.write("**Was this helpful?**")
+        st.caption("**If the result is not formatted correctly, please provide feedback so we can improve future outputs.**")
+
 
     with col_up:
         if st.button("👍"):
